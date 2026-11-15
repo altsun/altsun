@@ -23,18 +23,7 @@ Small tools for practical problems — from AutoCAD automation to Vietnamese tex
 
 ## 📊 Languages across my public repositories
 
-| Language | Code share |
-| --- | ---: |
-| Common Lisp | 43.4% |
-| HTML | 16.9% |
-| CSS | 11.8% |
-| SCSS | 9.3% |
-| Less | 8.5% |
-| JavaScript | 7.4% |
-| TypeScript | 2.2% |
-| Python | 0.4% |
-| Clean | 0.1% |
-| Procfile | 0.0% |
+![Language shares — Common Lisp: 43.4%, HTML: 16.9%, CSS: 11.8%, SCSS: 9.3%, Less: 8.5%, JavaScript: 7.4%, TypeScript: 2.2%, Python: 0.4%, Clean: 0.1%, Procfile: 0.0%](assets/languages.svg)
 
 Based on source-code bytes reported by GitHub, not proficiency. Forks, archived repositories and this profile repository are excluded. GitHub may classify AutoLISP as Common Lisp. Percentages may not total 100% due to rounding.
 

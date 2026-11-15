@@ -1,6 +1,7 @@
 import importlib.util
 import tempfile
 import unittest
+import xml.etree.ElementTree as ET
 from pathlib import Path
 from unittest.mock import patch
 
@@ -10,6 +11,15 @@ spec.loader.exec_module(stats)
 
 
 class StatsTests(unittest.TestCase):
+    def test_chart_proportions_and_escaping(self):
+        svg = stats.chart({"Python": 75, "C<&": 25})
+        root = ET.fromstring(svg)
+        bars = root.findall('{http://www.w3.org/2000/svg}rect')[1:]
+        self.assertEqual([float(bar.attrib['width']) for bar in bars], [450, 150])
+        self.assertIn('75.0%', svg)
+        self.assertIn('25.0%', svg)
+        self.assertIn('C&lt;&amp;', svg)
+
     def test_pagination_filters_and_zero_prs(self):
         calls = []
 
