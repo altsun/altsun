@@ -15,6 +15,7 @@ Small tools for practical problems — from AutoCAD automation to Vietnamese tex
 | --- | --- |
 | [My-Lisps](https://github.com/altsun/My-Lisps) | A collection of AutoLISP routines for AutoCAD. |
 | [Vietnamese Unicode Converter](https://github.com/altsun/Vietnamese-Unicode-Converter) | A Python / PyQt5 utility that converts composed Vietnamese Unicode characters into `\U+xxxx` patterns. |
+| [CV Studio](https://github.com/altsun/cv-studio) | A bilingual résumé builder with live preview, templates, and A4 PDF export. [Try it online](https://cv-studio-phi.vercel.app/). |
 
 <!-- STATS:START -->
 ## 🤝 Open Source Contributions
